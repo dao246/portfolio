@@ -1,4 +1,4 @@
-nav, .title_container, ul {
+nav, .title_container, .hr ul {
 	float: left;
 }
 
@@ -30,13 +30,17 @@ a {
 	text-decoration: none;
 }
 
+p{
+	font-family: helvetica;
+}
 
 .left-column{
-	width: 600px;
+	width: 601px;
 	float: left;
 	box-sizing: border-box;
 	padding-top: 100px;
 	padding-left: 50px;
+	font-family: helvetica;
 
 }
 
@@ -44,8 +48,7 @@ a {
 	float: right;
 	width: 400px;
 	box-sizing: border-box;
-	background: yellow;
-	padding-top: 100px;
+	padding-top: 65px;
 }
 
 
@@ -62,9 +65,19 @@ a {
 	
 	text-align: center;
 	box-sizing: border-box;
+}
 
 
+.hr {
+		margin: 3rem 0;
 
+}
+
+.spacer {
+	border-bottom: 1px solid #dadada;
+
+
+}
 
 
 

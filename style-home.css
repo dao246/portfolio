@@ -31,6 +31,10 @@ a {
 }
 
 
+p{
+	font-family: helvetica;
+}
+
 .left-column{
 	width: 601px;
 	float: left;
