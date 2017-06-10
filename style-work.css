@@ -1,0 +1,32 @@
+
+div.image-row img{
+	width:100%;
+	height: auto;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive{
+	padding: 0 7px;
+	float: left;
+	width:24.99999%;
+}
+
+@media all and (min-width: 700px) and (max-width: 900px){
+	.responsive {
+			width:49.99999%;
+			margin: 6px 0;
+			}
+}
+
+@media only screen and (max-width: 500px){
+
+	.responsive{
+		width: 100%;
+	}
+}
+
+
